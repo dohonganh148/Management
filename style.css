@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.img-product {
+  width: 200px;
+  height: 200px;
+}
+
+.notice {
+  display: none;
+  color: red;
+}
