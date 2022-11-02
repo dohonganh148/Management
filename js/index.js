@@ -92,12 +92,13 @@ const addProduct = async () => {
       newProduct
     );
     fetchProduct();
-    // clear input
-    // document.getElementById('formProduct').reset();
+    
   } catch (err) {
     console.log(err);
   }
   myModal.hide();
+  // clear input
+  document.getElementById('formProduct').reset();
 };
 
 // DELETE PRODUCT
@@ -148,6 +149,8 @@ const updateProduct = async () => {
   };
   fetchProduct();
   myModal.hide();
+  // clear input
+  document.getElementById('formProduct').reset();
 };
 
 // VALIDATION FORM
